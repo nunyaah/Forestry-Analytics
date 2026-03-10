@@ -1,0 +1,48 @@
+2026-03-09 19:30:10  INFO      ============================================================
+2026-03-09 19:30:10  INFO      Canopy Cover Model Training
+2026-03-09 19:30:10  INFO      ============================================================
+2026-03-09 19:30:10  INFO      Loading dataset: C:\Users\hanzlak\Documents\Joblogic\forestry\canopy_cover\data\canopy_cover_training.csv
+2026-03-09 19:30:10  INFO        Total rows: 19609
+2026-03-09 19:30:10  INFO        Columns: ['Aspect', 'Blue', 'Elevation', 'Green', 'NDMI', 'NDVI', 'NIR', 'Red', 'SWIR1', 'SWIR2', 'Slope', 'canopy_cover', 'forest_mask', 'region', 'sampling_group', 'split', 'stratum']
+2026-03-09 19:30:10  INFO        himalayan              forest : 3192 rows
+2026-03-09 19:30:10  INFO        kaghan                 forest : 2094 rows
+2026-03-09 19:30:10  INFO        non_forest             non_forest : 5000 rows
+2026-03-09 19:30:10  INFO        riverine               forest : 3727 rows
+2026-03-09 19:30:10  INFO        subtropical_pine       forest : 3055 rows
+2026-03-09 19:30:10  INFO        temperate              forest : 2541 rows
+2026-03-09 19:30:10  INFO      Split -- train: 13778  val: 2868  test: 2963
+2026-03-09 19:30:10  INFO      Training Random Forest  params={'n_estimators': 300, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'n_jobs': -1, 'random_state': 42, 'oob_score': True}
+2026-03-09 19:30:11  INFO        OOB R² (train set): 0.8328
+2026-03-09 19:30:11  INFO      --- Evaluation ---
+2026-03-09 19:30:11  INFO      train       MAE=6.67  RMSE=10.64  R²=0.9143
+2026-03-09 19:30:11  INFO      val         MAE=9.60  RMSE=15.08  R²=0.8275
+2026-03-09 19:30:11  INFO      test        MAE=9.07  RMSE=14.34  R²=0.8439
+2026-03-09 19:30:11  INFO      --- Feature importances (MDI) ---
+2026-03-09 19:30:11  INFO        Blue         0.1903
+2026-03-09 19:30:11  INFO        Green        0.1838
+2026-03-09 19:30:11  INFO        Red          0.1779
+2026-03-09 19:30:11  INFO        SWIR2        0.1109
+2026-03-09 19:30:11  INFO        NDVI         0.0774
+2026-03-09 19:30:11  INFO        Elevation    0.0552
+2026-03-09 19:30:11  INFO        SWIR1        0.0536
+2026-03-09 19:30:11  INFO        NDMI         0.0447
+2026-03-09 19:30:11  INFO        Aspect       0.0439
+2026-03-09 19:30:11  INFO        Slope        0.0312
+2026-03-09 19:30:11  INFO        NIR          0.0311
+2026-03-09 19:30:11  INFO      --- Permutation importances (val set, 5 repeats) ---
+2026-03-09 19:30:17  INFO        Blue         0.2129
+2026-03-09 19:30:17  INFO        Red          0.1471
+2026-03-09 19:30:17  INFO        Green        0.1374
+2026-03-09 19:30:17  INFO        Elevation    0.0799
+2026-03-09 19:30:17  INFO        SWIR2        0.0736
+2026-03-09 19:30:17  INFO        Aspect       0.0697
+2026-03-09 19:30:17  INFO        NDVI         0.0598
+2026-03-09 19:30:17  INFO        Slope        0.0547
+2026-03-09 19:30:17  INFO        NIR          0.0499
+2026-03-09 19:30:17  INFO        NDMI         0.0424
+2026-03-09 19:30:17  INFO        SWIR1        0.0347
+2026-03-09 19:30:17  INFO      Model saved -> C:\Users\hanzlak\Documents\Joblogic\forestry\canopy_cover\models\canopy_cover_rf.joblib
+2026-03-09 19:30:17  INFO      Metrics saved -> C:\Users\hanzlak\Documents\Joblogic\forestry\canopy_cover\models\canopy_cover_rf_metrics.json
+2026-03-09 19:30:17  INFO      ============================================================
+2026-03-09 19:30:17  INFO      Done.
+2026-03-09 19:30:17  INFO      ============================================================
