@@ -73,7 +73,7 @@ Map.addLayer(
 Export.image.toAsset({
   image: canopyCover,
   description: 'canopy_cover_pakistan_2025_growing_season_v2',
-  assetId: 'projects/adk-crash-course-471706/assets/outputs/canopy_cover_2025_growing_season_v2',
+  assetId: 'projects/adk-crash-course-471706/assets/outputs/canopy_cover_2025_growing_season',
   region: pakistan,
   scale: 30,
   pyramidingPolicy: {'.default': 'mean'},

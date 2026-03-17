@@ -211,3 +211,10 @@ __marimo__/
 >>>>>>> d5c4761a03ccb73605dd1893f56613fa9cd66dba
 
 **/data/
+
+/compressed images/
+/pdf images/
+/png images/
+/tif images/
+/docs/
+/python_scripts/

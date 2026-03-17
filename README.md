@@ -732,7 +732,7 @@ projects/adk-crash-course-471706/assets/outputs/
 
 ### Example output assets
 
-* `canopy_cover_2025_growing_season_v2`
+* `canopy_cover_2025_growing_season`
 * `canopy_height_2025_growing_season`
 
 ### Pyramiding policy
